@@ -1,10 +1,11 @@
 import React from 'react';
-import { Button } from 'antd';
 import './App.css';
+
+import Lyout from './Layout/Layout.js';
 
 const App = () => (
   <div className="App">
-    <Button type="primary">Button</Button>
+    <Lyout></Lyout>
   </div>
 );
 
